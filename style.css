@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
 body {
   /* height: 500vh; */
   width: 100%;
@@ -15,6 +17,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 .gradient {
   background: linear-gradient(
@@ -166,4 +169,48 @@ a.socials-link:active {
 
 .card-head {
   color: white;
+  padding: 20px;
+}
+
+.opinions h2 {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.opinions-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.opinion-card {
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-head img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card-head h3 {
+  margin-left:10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.card-body {
+  font-size: 1em;
+  color: white;
+  line-height: 1.5;
 }
