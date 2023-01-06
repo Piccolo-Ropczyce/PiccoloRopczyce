@@ -74,7 +74,7 @@ header {
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 1fr 300px;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 10% 1fr;
 }
 
 #main-header h1 {
@@ -95,7 +95,7 @@ header {
   display: flex;
   flex-direction: column;
   position: fixed;
-  width: 200px;
+  width: 10%;
   height: 100vh;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
