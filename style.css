@@ -5,15 +5,24 @@
 }
 
 body {
-  height: 500vh;
+  /* height: 500vh; */
   width: 100%;
   font-size: 10px;
 }
 
-section {
-  background-image: url("/images/piccolo.jpg");
-  height: 100%;
+.main-background {
+  background-image: url(./images/piccolo.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
   width: 100%;
+}
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(162, 162, 162, 1) 0%,
+    rgba(142, 142, 142, 0.20632002801120453) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 /* NAVIGATION */
@@ -47,33 +56,68 @@ a.menu-item-link {
 a.menu-item-link.active {
   color: rgb(243, 171, 38);
   border-bottom: 2px solid orange;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.main-background {
-    background-image: url(images/piccolo.jpg);
-    background-color: gray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 main {
-    width: 90%;
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    justify-content: center;
-    flex-direction: column;
-    text-align: right;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
 }
 
 #main-header {
-    margin-bottom: 30px;
-    font-size: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
 }
 
 .short-about {
-    padding: 10px;
-    font-size: 20px;
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Aside fixed po lewej */
+
+.main-aside {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: yellow;
+}
+.fa-instagram,
+.fa-facebook {
+  font-size: 4rem;
+  padding: 1rem;
+}
+.fa-facebook {
+  margin-bottom: 1rem;
+}
+a.socials-link:visited,
+a.socials-link:link,
+a.socials-link:hover,
+a.socials-link:active {
+  color: yellow;
 }
