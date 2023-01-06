@@ -1,4 +1,5 @@
 * {
+<<<<<<< Updated upstream
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -47,4 +48,35 @@ a.menu-item-link {
 a.menu-item-link.active {
   color: rgb(243, 171, 38);
   border-bottom: 2px solid orange;
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-background {
+    background-image: url(images/piccolo.jpg);
+    background-color: gray;
+}
+
+main {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+#main-header {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.short-about {
+    padding: 10px;
+    font-size: 20px;
+>>>>>>> Stashed changes
 }
