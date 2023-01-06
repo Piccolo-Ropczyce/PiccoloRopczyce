@@ -27,7 +27,7 @@ body {
 
 /* NAVIGATION */
 
-header {
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ a.menu-item-link.active {
   box-sizing: border-box;
 }
 
-main {
+header {
   width: 90%;
   height: 100vh;
   display: flex;
@@ -72,7 +72,7 @@ main {
   text-align: right;
 }
 
-#main-header {
+#main-header h1{
   margin-bottom: 30px;
   font-size: 50px;
 }
@@ -120,4 +120,8 @@ a.socials-link:link,
 a.socials-link:hover,
 a.socials-link:active {
   color: yellow;
+}
+
+.opinions {
+  display: grid;
 }
