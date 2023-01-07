@@ -7,32 +7,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
 body {
-  /* height: 500vh; */
-  width: 100%;
+  height: 500vh;
+  width: 100vw;
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 .page {
-  display: grid;
-  grid-template-columns: 10% 1fr;
-  width: 100%;
+  height: 100%;
 }
 
+/* Aside fixed po lewej */
+
+.aside-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10vw;
+  height: 100%;
+  padding: 1.5;
+}
+
+.main-aside {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10vw;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  padding: 1.5rem;
+}
+.logo-hidden {
+  visibility: hidden;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: yellow;
+}
+.fa-instagram,
+.fa-facebook {
+  font-size: 4rem;
+  padding: 1rem;
+}
+.fa-facebook {
+  margin-bottom: 1rem;
+}
+a.socials-link:visited,
+a.socials-link:link,
+a.socials-link:hover,
+a.socials-link:active {
+  color: yellow;
+}
+
+/* Kontener na reszte strony(po prawej) */
 .main-background {
   background-image: url(./images/piccolo.jpg);
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%;
   font-family: 'Oswald', sans-serif;
 }
 .gradient {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(
     90deg,
     rgba(162, 162, 162, 1) 0%,
     rgba(142, 142, 142, 0.20632002801120453) 0%,
     rgba(0, 0, 0, 1) 100%
   );
-  height: 100vh;
 }
 
 /* NAVIGATION */
@@ -69,100 +122,44 @@ a.menu-item-link.active {
   border-bottom: 2px solid orange;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 header {
-  position: relative;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-}
-
-#main-header h1 {
-  margin-bottom: 30px;
-  font-size: 50px;
-}
-
-.short-about {
-  padding: 10px;
-  font-size: 20px;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-/* Aside fixed po lewej */
-
-.main-aside {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  width: 10%;
-  height: 100vh;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.logo {
-  padding: 1rem;
-}
-
-.icons {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   flex-direction: column;
-  height: 100vh;
-  color: yellow;
-}
-.fa-instagram,
-.fa-facebook {
-  font-size: 4rem;
-  padding: 1rem;
-}
-.fa-facebook {
-  margin-bottom: 1rem;
-}
-a.socials-link:visited,
-a.socials-link:link,
-a.socials-link:hover,
-a.socials-link:active {
-  color: yellow;
-}
-
-.welcome-content {
-  grid-column: 2/3;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: right;
-  color: white;
-}
-
-.h2 {
-  width: 100%;
-  color: white;
-  font-size: 1.5rem;
-}
-
-.opinions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  grid-column: 2/3;
-  grid-row: 3/4;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 30px 60px;
+  color: white;
 }
-
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.welcome-content {
+  height: 50%;
+}
+.welcome-content h1,
+p {
+  position: relative;
+  top: 10rem;
+  text-align: right;
+  margin-right: 2rem;
+}
+.welcome-content p {
+  font-size: 1.3rem;
+}
+.opinions {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.opinions .h2 {
+  font-size: 2rem;
+  padding: 1rem;
+}
 .opinions-list {
   display: flex;
   justify-content: space-between;
-  display: flex;
-  width: 100%;
+  margin: 0 1rem;
 }
 
 .opinion-card {
@@ -207,7 +204,7 @@ a.socials-link:active {
 }
 
 .card-head h3 {
-  margin-left:10px;
+  margin-left: 10px;
   font-size: 1.2em;
   color: white;
 }
