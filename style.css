@@ -7,81 +7,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
 body {
-  height: 500vh;
-  width: 100vw;
+  /* height: 500vh; */
+  width: 100%;
   font-size: 10px;
-  overflow-x: hidden;
 }
 
-
-/* Aside fixed po lewej */
-
-.aside-container {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 10vw;
-  height: 100%;
-  padding: 1.5;
+.page {
+  height: 500vh;
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.main-aside {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10vw;
-  height: 100vh;
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.logo {
-  padding: 1.5rem;
-}
-.logo-hidden {
-  visibility: hidden;
-}
-.icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  color: yellow;
-}
-.fa-instagram,
-.fa-facebook {
-  font-size: 4rem;
-  padding: 1rem;
-}
-.fa-facebook {
-  margin-bottom: 1rem;
-}
-a.socials-link:visited,
-a.socials-link:link,
-a.socials-link:hover,
-a.socials-link:active {
-  color: yellow;
-}
-
-/* Kontener na reszte strony(po prawej) */
-.main-background {
+.image {
   background-image: url(./images/piccolo.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
   height: 100vh;
+  grid-column: 1/3;
+}
+
+.main-background {
+  height: 100vh;
+  width: 100%;
   font-family: 'Oswald', sans-serif;
+  grid-column: 2/3;
 }
 .gradient {
-  position: absolute;
-  display: flex;
-  height: 100%;
-  width: 100%;
   background: linear-gradient(
     90deg,
     rgba(162, 162, 162, 1) 0%,
     rgba(142, 142, 142, 0.20632002801120453) 0%,
     rgba(0, 0, 0, 1) 100%
   );
+  height: 100vh;
 }
 
 /* NAVIGATION */
@@ -118,55 +78,117 @@ a.menu-item-link.active {
   border-bottom: 2px solid orange;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.welcome-content {
-  height: 50%;
-}
-.welcome-content h1,
-p {
   position: relative;
-  top: 10rem;
-  text-align: right;
-  margin-right: 2rem;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-template-rows: 1fr 300px;
 }
-.welcome-content p {
-  font-size: 1.3rem;
+
+#main-header h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
 }
-.opinions {
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(5px);
+
+.short-about {
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.opinions .h2 {
-  font-size: 2rem;
+/* Aside fixed po lewej */
+
+.main-aside {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  grid-column: 1/2;
+}
+
+.logo {
   padding: 1rem;
 }
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: yellow;
+}
+.fa-instagram,
+.fa-facebook {
+  font-size: 4rem;
+  padding: 1rem;
+}
+.fa-facebook {
+  margin-bottom: 1rem;
+}
+a.socials-link:visited,
+a.socials-link:link,
+a.socials-link:hover,
+a.socials-link:active {
+  color: yellow;
+}
+
+.welcome-content {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  color: white;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+
+.h2 {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.opinions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 2/3;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px 60px;
+}
+
 .opinions-list {
   display: flex;
   justify-content: space-between;
-  margin: 0 1rem;
+  display: flex;
+  width: 100%;
 }
 
 .opinion-card {
   border: 1px solid white;
-  padding: 25px;
+  padding: 40px;
 }
 
 .card-head {
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .opinions h2 {
@@ -195,19 +217,19 @@ p {
 }
 
 .card-head img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
 .card-head h3 {
   margin-left: 10px;
-  font-size: 2.4em;
+  font-size: 1.2em;
   color: white;
 }
 
 .card-body {
-  font-size: 2em;
+  font-size: 1em;
   color: white;
   line-height: 1.5;
 }
