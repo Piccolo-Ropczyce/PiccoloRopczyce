@@ -71,7 +71,6 @@ a.socials-link:active {
 /* Kontener na reszte strony(po prawej) */
 .main-background {
   background-image: url(./images/piccolo.jpg);
-  background-repeat: no-repeat;
   height: 100vh;
   font-family: 'Oswald', sans-serif;
 }
