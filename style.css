@@ -13,9 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-.page {
-  height: 100%;
-}
 
 /* Aside fixed po lewej */
 
@@ -150,6 +147,7 @@ p {
 }
 .opinions {
   background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
 }
 .opinions .h2 {
   font-size: 2rem;
@@ -163,12 +161,12 @@ p {
 
 .opinion-card {
   border: 1px solid white;
-  padding: 40px;
+  padding: 25px;
 }
 
 .card-head {
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
 .opinions h2 {
@@ -197,19 +195,19 @@ p {
 }
 
 .card-head img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
 .card-head h3 {
   margin-left: 10px;
-  font-size: 1.2em;
+  font-size: 2.4em;
   color: white;
 }
 
 .card-body {
-  font-size: 1em;
+  font-size: 2em;
   color: white;
   line-height: 1.5;
 }
