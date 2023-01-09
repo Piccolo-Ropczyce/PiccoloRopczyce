@@ -77,7 +77,8 @@ a.menu-item-link {
 	padding-bottom: 5px;
 }
 
-a.menu-item-link.active {
+a.active,
+li.active {
 	color: #f2c81e;
 	border-bottom: 2px solid #f2c81e;
 	margin: 0;
@@ -349,7 +350,70 @@ a.socials-link:active {
 
 .menu {
 	grid-column: 2/3;
+	display: flex;
+	justify-content: center;
 }
+
+.main-menu-box h2 {
+	text-align: center;
+	color: white;
+	font-size: 4rem;
+	margin: 2rem 0;
+	padding: 1rem 0;
+	border-bottom: 0.1rem solid white;
+	/* grafik border ^ */
+}
+
+.main-menu-list {
+	display: flex;
+	justify-content: space-around;
+	width: 70vw;
+	margin: 3rem 0;
+	/* border: 1px solid white; */
+	/* border-radius: 5px; */
+}
+.pizza-list-box {
+	margin-top: 4rem;
+}
+.li-pizza {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.add-to-cart-buttons button {
+	padding: 1rem 1.5rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 0.7rem;
+	color: #f2c81e;
+	background-color: transparent;
+	transition: 0.3s;
+	margin: 0 0.1rem;
+}
+
+.add-to-cart-buttons button:hover {
+	background-color: #f2c81e;
+	color: #000;
+	border: 1px #000 solid;
+	cursor: pointer;
+	/* grafik kolory^ */
+}
+
 li {
 	list-style: none;
+}
+
+.li-menu {
+	font-size: 2rem;
+	color: white;
+}
+.menu-image {
+	width: 6.5rem;
+	height: 6.5rem;
+	border-radius: 50%;
 }
