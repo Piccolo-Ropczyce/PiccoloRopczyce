@@ -330,3 +330,15 @@ a.socials-link:active {
 	border: none;
 	font-size: 1.3rem;
 }
+
+/* Menu */
+
+.gradient-menu {
+	background: rgb(162, 162, 162);
+	background: linear-gradient(
+		125deg,
+		rgba(162, 162, 162, 1) 0%,
+		rgba(70, 70, 70, 0.7917542016806722) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
