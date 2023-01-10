@@ -11,6 +11,7 @@ html {
 body {
 	width: 100%;
 	font-size: 10px;
+	/* overflow: hidden; */
 }
 
 .layout {
@@ -134,14 +135,10 @@ header {
 	height: 100vh;
 	color: #f2c81e;
 }
-.fa-instagram,
-.fa-facebook {
-	font-size: 4rem;
-	padding: 1rem;
+.icon-tabler {
+	margin-bottom:  1rem;;
 }
-.fa-facebook {
-	margin-bottom: 1rem;
-}
+
 a.socials-link:visited,
 a.socials-link:link,
 a.socials-link:hover,
@@ -149,6 +146,7 @@ a.socials-link:active {
 	color: #f2c81e;
 }
 
+/* Pierwsza sekcja */
 .welcome-content {
 	grid-column: 2/3;
 	display: flex;
@@ -216,6 +214,7 @@ a.socials-link:active {
 	margin-bottom: 20px;
 }
 
+/* Karta opinii */
 .card-head {
 	display: flex;
 	align-items: center;
@@ -240,6 +239,7 @@ a.socials-link:active {
 	line-height: 1;
 }
 
+/* Sekcja o nas */
 .gradient-about-us {
 	background: rgb(162, 162, 162);
 	background: linear-gradient(
@@ -369,8 +369,6 @@ a.socials-link:active {
 	justify-content: space-around;
 	width: 70vw;
 	margin: 3rem 0;
-	/* border: 1px solid white; */
-	/* border-radius: 5px; */
 }
 .pizza-list-box {
 	margin-top: 4rem;
@@ -418,6 +416,8 @@ li {
 	border-radius: 50%;
 }
 
+
+/* galeria */
 .gradient-gallery {
 	display: grid;
 	grid-template-columns: 10% 1fr;
