@@ -1,78 +1,221 @@
+const pizzaUlContainer = document.querySelector('.pizza-list-box');
+
 // Klasa do stworzenia pizzy
 class PizzaCreator {
-	constructor(ingredients, smallPizzaPrice, bigPizzaPrice, pizzaType) {
-		this.ingredients = ingredients,
-		this.smallPizzaPrice = smallPizzaPrice,
-		this.bigPizzaPrice = bigPizzaPrice,
-		this.pizzaType = pizzaType
+	constructor(pizzaImg, pizzaHeading, ingredients, smallPizzaPrice, bigPizzaPrice, pizzaType) {
+			this.pizzaImg = pizzaImg,
+			this.pizzaHeading = pizzaHeading,
+			this.ingredients = ingredients,
+			this.smallPizzaPrice = smallPizzaPrice,
+			this.bigPizzaPrice = bigPizzaPrice,
+			this.pizzaType = pizzaType
 	}
 };
 
 // Funkcja powyzszej klasy tworzaca li na stronie z stworzona pizza
 PizzaCreator.prototype.addPizzaToUl = function () {
 	// Pobieranie elementow z HTML
-	const pizzaUlContainer = document.querySelector('.pizza-list-box');
+	
 
 	// Tworzenie elementow HTML
-	const createLi = document.createElement('li');
-	const createBtnSmallPizza = document.createElement('button');
-	const createBtnBigPizza = document.createElement('button');
-	const createDiv = document.createElement('div');
+	const li = document.createElement('li');
+	const btnSmallPizza = document.createElement('button');
+	const btnBigPizza = document.createElement('button');
+	const buttonsDiv = document.createElement('div');
+	const headingsDiv = document.createElement('div');
+	const img = document.createElement('img');
+	const paragraph = document.createElement('p')
+	const heading = document.createElement('h3');
+	
+	// Set up elementow dodawanych do strony
+	img.setAttribute('src', this.pizzaImg);
+	img.setAttribute('alt', '');
+	img.classList.add('menu-image')
 
-	// Set up tekstu elementow dodawanych do strony
-	createLi.textContent = this.ingredients;
-	createBtnSmallPizza.textContent = this.smallPizzaPrice;
-	createBtnBigPizza.textContent = this.bigPizzaPrice;
+	heading.textContent = this.pizzaHeading
+	paragraph.textContent = this.ingredients;
+	btnSmallPizza.textContent = this.smallPizzaPrice;
+	btnBigPizza.textContent = this.bigPizzaPrice;
 
 	// Set up klas elementow dodawanych do strony
-	createLi.classList.add('li-pizza');
-	createDiv.classList.add('add-to-cart-buttons');
+	li.classList.add('li-pizza');
+
+	headingsDiv.classList.add('headings-div');
+	buttonsDiv.classList.add('add-to-cart-buttons');
 
 	// Przypisanie elementow do odpowiednich struktur
-	createDiv.append(createBtnSmallPizza);
-	createDiv.append(createBtnBigPizza);
-	pizzaUlContainer.append(createLi);
-	pizzaUlContainer.append(createDiv);
-	createLi.append(createDiv);
+	pizzaUlContainer.append(li);
+	li.append(headingsDiv);
+	headingsDiv.append(heading);
+	headingsDiv.append(img);
+
+	li.append(paragraph);
+
+	li.append(buttonsDiv);
+	buttonsDiv.append(btnSmallPizza);
+	buttonsDiv.append(btnBigPizza);
 }
 
 // Tablica zawierajaca wszystkie pizze
 const arrayContainingPizzas = [
+	// Pizza vege
 	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 1,
 		ingredients: 'Sos pomidorowy, mozzarella',
 		smallPizzaPrice: 24,
 		bigPizzaPrice: 33,
 		pizzaType: 'vege',
 	},
 	{
-		ingredients: 'Sos pomidorowy, mozzarella,pomidorki koktajlowe, oliwki, świeża bazylia',
+		pizzaImg: '/images/pizzaKurczak',
+		pizzaHeading: 2,
+		ingredients: 'Sos pomidorowy, mozzarella, pomidorki koktajlowe, oliwki, świeża bazylia ',
 		smallPizzaPrice: 29,
 		bigPizzaPrice: 42,
-		pizzaType: 'kurczak',
+		pizzaType: 'vege',
 	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 3,
+		ingredients: 'Sos pomidorowy, mozzarella, gorgonzola, mascarpone, parmezan',
+		smallPizzaPrice: 33,
+		bigPizzaPrice: 44,
+		pizzaType: 'vege',
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 4,
+		ingredients: 'Biały sos, mozzarella, cukinia, pieczona papryka',
+		smallPizzaPrice: 30,
+		bigPizzaPrice: 41,
+		pizzaType: 'vege',
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 5,
+		ingredients: 'Biały sos, mozzarella, jalapeno, czerwona cebula, oliwki',
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 43,
+		pizzaType: 'vege',
+	},
+	// Pizza z szynka/szynka parmenska
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 6,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka parmeńska, parmezan, pomidorki koktajlowe, rukola",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 48,
+		pizzaType: "szynka",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 7,
+		ingredients:
+		  "Biały sos, mozzarella, oliwki, szynka parmeńska, rukola, parmezan",
+		smallPizzaPrice: 37,
+		bigPizzaPrice: 49,
+		pizzaType: "szynka",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 8,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, pieczarki, pieczona papryka, pomidorki koktajlowe",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 47,
+		pizzaType: "szynka",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 9,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, oliwki, karczochy, rukola",
+		smallPizzaPrice: 34,
+		bigPizzaPrice: 45,
+		pizzaType: "szynka",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 10,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, szpinak, pomidorki koktajlowe, krem serowy",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 46,
+		pizzaType: "szynka",
+	 },
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 11,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, czerwona cebula, oliwki, jalapeno, papryczki peperoncici, ostry sos",
+		smallPizzaPrice: 39,
+		bigPizzaPrice: 50,
+		pizzaType: "szynka",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 12,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, pieczarki, szynka, pieczarki, kukurydza",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		pizzaType: "szynka",
+	},
+
 ]
 
 // Pobor wszystkich elementow z typami pizzy
 const liMenu = document.querySelectorAll('.li-menu');
 
 
-// H2 z pizzami (tak jak w rozacie) zeby nie bylo samych skladnikow uzupelnic nazwami pizz, typu neapolitanska itp
-
 // Funkcja tworzaca pizze na podstawie jej typu z uzyciem klasy
 const getPizza = e => {
+	removePizzas();
+
 	let pizzaType = e.target.dataset.name;
 
 	arrayContainingPizzas.forEach(pizza => {
+		
 		for (const key in pizza) {
 			if (pizza[key] === pizzaType) {
 
-				const chosenPizza = new PizzaCreator(pizza.ingredients, pizza.smallPizzaPrice, pizza.bigPizzaPrice, pizza.pizzaType);
-
+				const chosenPizza = new PizzaCreator(pizza.pizzaImg, pizza.pizzaHeading, pizza.ingredients, pizza.smallPizzaPrice + 'zł', pizza.bigPizzaPrice + 'zł', pizza.pizzaType);
+	
 				chosenPizza.addPizzaToUl();
 			}
 		}
 	})
 }
 
+// Funkcja usuwajaca porpzedni obiekt pizzy
+const removePizzas = () => {
+	const lisToRemove = document.getElementsByClassName('li-pizza');
+
+	console.log([...lisToRemove]);
+	// ifa mozna pozniej wyjebac jak bedzie kontent na stronie(1 lista zrobiona jak bedzie)
+	if([...lisToRemove].length > 0){
+		for(const liToRemove of lisToRemove){
+			liToRemove.remove();
+		}
+	}
+}
+
+const menu = () => {
+	arrayContainingPizzas.forEach(pizza => {
+		
+		for (const key in pizza) {
+			if (pizza[key] === 'vege') {
+
+				const chosenPizza = new PizzaCreator(pizza.pizzaImg, pizza.pizzaHeading, pizza.ingredients, pizza.smallPizzaPrice + 'zł', pizza.bigPizzaPrice + 'zł', pizza.pizzaType);
+	
+				chosenPizza.addPizzaToUl();
+			}
+		}
+	})
+}
+
+window.addEventListener('DOMContentLoaded', menu)
 
 liMenu.forEach(el => el.addEventListener('click', getPizza));

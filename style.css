@@ -373,13 +373,26 @@ a.socials-link:active {
 .pizza-list-box {
 	margin-top: 4rem;
 }
+
+.pizza-list-box h3{
+	font-size: 3.5rem;
+}
+
 .li-pizza {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 	margin-top: 2rem;
 	font-size: 1.5rem;
 	color: white;
+}
+
+.headings-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 11rem;
 }
 
 .add-to-cart-buttons button {
@@ -391,15 +404,7 @@ a.socials-link:active {
 	color: #f2c81e;
 	background-color: transparent;
 	transition: 0.3s;
-	margin: 0 0.1rem;
-}
-
-.add-to-cart-buttons button:hover {
-	background-color: #f2c81e;
-	color: #000;
-	border: 1px #000 solid;
-	cursor: pointer;
-	/* grafik kolory^ */
+	margin: 0 0.3rem;
 }
 
 li {
