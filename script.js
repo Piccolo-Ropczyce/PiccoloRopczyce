@@ -163,6 +163,180 @@ const arrayContainingPizzas = [
 		bigPizzaPrice: 44,
 		pizzaType: "szynka",
 	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 13,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli, suszone pomidory, cebula, świeża bazylia",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 48,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 14,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli, szynka, pieczarki, oliwa czosnkowa ",
+		smallPizzaPrice: 34,
+		bigPizzaPrice: 45,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 15,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli / salami picante",
+		smallPizzaPrice: 27,
+		bigPizzaPrice: 36,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 16,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli / salami picante, pieczarki",
+		smallPizzaPrice: 29,
+		bigPizzaPrice: 40,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 17,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli, karczochy, oliwki",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 18,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami picante, oliwki, suszone pomidory, rukola ",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 45,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 19,
+		ingredients:
+		  "Biały sos, mozzarella, salami picante, papryczka peperoncini, cebula czerwona",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 45,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 20,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami picante, cukinia, pieczona papryka, czerwona cebula",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 45,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 21,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami picante, mascarpone, gorgonzola, oliwki",
+		smallPizzaPrice: 37,
+		bigPizzaPrice: 48,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		pizzaHeading: 22,
+		ingredients:
+		  "Sos  pomidorowy, mozzarella, salami picante, mascarpone, jalapeno",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		pizzaType: "salami",
+	},
+	{
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 23,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, 'nduja, mascarpone, suszone pomidory, szpinak",
+		smallPizzaPrice: 37,
+		bigPizzaPrice: 48,
+		pizzaType: "nduja",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 24,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, 'nduja, pieczona papryka, oliwki, rukola",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 47,
+		pizzaType: "nduja",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 25,
+		ingredients:
+		  "Biały sos, mozzarella, 'nduja, czerwona cebula, suszone pomidory, świeża bazylia",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 47,
+		pizzaType: "nduja",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 26,
+		ingredients: "Sos pomidorowy, mozzarella, kurczak, mascarpone, szpinak",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		pizzaType: "kurczak",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 27,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, kurczak, czerwona cebula, kukurydza, zapiekany majonez",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 47,
+		pizzaType: "kurczak",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 28,
+		ingredients: "Sos pomidorowy, mozzarella, kurczak, kukurydza, papryka",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 43,
+		pizzaType: "kurczak",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 29,
+		ingredients: "Biały sos, mozzarella, kurczak, jalapeno, czerwona cebula",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		pizzaType: "kurczak",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 30,
+		ingredients: "Sos pomidorowy, mozzarella, tuńczyk, oliwki",
+		smallPizzaPrice: 29,
+		bigPizzaPrice: 42,
+		pizzaType: "tunczyk",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 31,
+		ingredients: "Biały sos, mozzarella, tuńczyk, cebula, kukurydza, szpinak",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 47,
+		pizzaType: "tunczyk",
+	  },
+	  {
+		pizzaImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		pizzaHeading: 32,
+		ingredients: "Sos pomidorowy, mozzarella, tuńczyk, cebula, zapiekany majonez",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 44,
+		pizzaType: "tunczyk",
+	  },
 
 ]
 
@@ -189,17 +363,15 @@ const getPizza = e => {
 	})
 }
 
-// Funkcja usuwajaca porpzedni obiekt pizzy
+// Funkcja usuwajaca poprzedni obiekt pizzy
 const removePizzas = () => {
 	const lisToRemove = document.getElementsByClassName('li-pizza');
 
-	console.log([...lisToRemove]);
-	// ifa mozna pozniej wyjebac jak bedzie kontent na stronie(1 lista zrobiona jak bedzie)
-	if([...lisToRemove].length > 0){
-		for(const liToRemove of lisToRemove){
-			liToRemove.remove();
-		}
-	}
+		[...lisToRemove].forEach(item => {
+			item.remove();
+		})
+		
+	
 }
 
 const menu = () => {

@@ -414,6 +414,7 @@ li {
 .li-menu {
 	font-size: 2rem;
 	color: white;
+	cursor: pointer;
 }
 .menu-image {
 	width: 6.5rem;
