@@ -443,13 +443,8 @@ const getDish = e => {
 
 // Funkcja usuwajaca poprzedni obiekt pizzy
 const removeDishes = () => {
-	const lisToRemove = document.getElementsByClassName('li-pizza');
-
-		[...lisToRemove].forEach(item => {
-			item.remove();
-		})
-		
 	
+		dishUlContainer.innerHTML = '';
 }
 
 
@@ -470,22 +465,22 @@ const showMenu = () => {
 	})
 }
 
-const navigation = document.querySelector(".navigation");
-const asideImg = document.querySelector(".main-aside img");
-const aside = document.querySelector(".main-aside ");
+// const navigation = document.querySelector(".navigation");
+// const asideImg = document.querySelector(".main-aside img");
+// const aside = document.querySelector(".main-aside ");
 
-window.addEventListener("scroll", () => {
-  let sizeOnTop = window.scrollY;
-  if (sizeOnTop > 100) {
-    navigation.classList.add("show");
-    asideImg.src = "./logo/piccolo_zote.png";
-    aside.classList.add("show");
-  } else if (sizeOnTop < 100) {
-    navigation.classList.remove("show");
-    asideImg.src = "./logo/piccolo_biale.png";
-    aside.classList.remove("show");
-  }
-});
+// window.addEventListener("scroll", () => {
+//   let sizeOnTop = window.scrollY;
+//   if (sizeOnTop > 100) {
+//     navigation.classList.add("show");
+//     asideImg.src = "./logo/piccolo_zote.png";
+//     aside.classList.add("show");
+//   } else if (sizeOnTop < 100) {
+//     navigation.classList.remove("show");
+//     asideImg.src = "./logo/piccolo_biale.png";
+//     aside.classList.remove("show");
+//   }
+// });
 
 
 window.addEventListener('DOMContentLoaded', showMenu)
