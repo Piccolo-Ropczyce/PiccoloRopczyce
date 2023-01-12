@@ -1,0 +1,1336 @@
+piccolo aside
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piccolo Ropczyce</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="layout">
+    <section class="background-first-section-image">
+      <!-- Aside - left side -->
+
+      <aside class="main-aside">
+        <!-- Logo  -->
+        <img class="logo" src="./logo/piccolo_biale.png" alt="Logo strony" />
+
+        <!-- Icons -->
+        <section class="icons">
+          <a class="socials-link" href="https://www.instagram.com/piccolo_ropczyce/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="96"
+              height="96" viewBox="0 0 96 96" stroke-width="6" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="16" y="16" width="64" height="64" rx="16"></rect>
+              <circle cx="48" cy="48" r="12"></circle>
+              <line x1="66" y1="30" x2="66" y2="30.004"></line>
+            </svg>
+          </a>
+
+          <a class="socials-link" href="https://www.facebook.com/people/Piccolo-Ropczyce/100065179142049/"
+            target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="96"
+              height="96" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+            </svg>
+
+
+          </a>
+        </section>
+      </aside>
+      <div class="main-background">
+        <div class="gradient">
+
+          <!-- Navigation -->
+          <nav class="navigation">
+            <ul class="main-nav">
+              <li class="menu-item">
+                <a class="menu-item-link active" href="#">Strona główna</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#about-us">O nas</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#menu">Menu</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">Galeria</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-item-link" href="#">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Main Section -->
+          <header id="main-header">
+            <div class="welcome-content">
+              <h1>
+                Najlepsza <br />
+                Włoska Pizza
+              </h1>
+              <p class="short-about">
+                Lorem ipsum dolor adipisicing elit. Modi, enim.
+              </p>
+              <p class="short-about">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Modi, enim.
+              </p>
+            </div>
+
+            <!-- Opinions -->
+            <div class="opinions">
+              <h2 class="h2">Ostatnie opinie</h2>
+              <div class="opinions-list">
+                <div class="opinion-card">
+                  <div class="card-head">
+                    <img src="/images/image.png" alt="" />
+                    <h3>Ciagacz mateusz</h3>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Quasi, itaque!
+                    </p>
+                  </div>
+                </div>
+
+                <div class="opinion-card">
+                  <div class="card-head">
+                    <img src="/images/image.png" alt="" />
+                    <h3>Ciagacz mateusz</h3>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Quasi, itaque!
+                    </p>
+                  </div>
+                </div>
+
+                <div class="opinion-card">
+                  <div class="card-head">
+                    <img src="/images/image.png" alt="" />
+                    <h3>Ciagacz mateusz</h3>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Quasi, itaque!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+    </section>
+
+    <!-- About us -->
+    <div class="gradient-about-us">
+      -
+      <section class="about-us" id="about-us">
+        <div class="about-us-text-content">
+          <div class="about-us-heading">
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              molestiae.
+            </h2>
+          </div>
+          <div class="about-us-paragraphs">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+              minus laudantium aut consequatur tempore earum eius at
+              perspiciatis, nobis ullam deleniti ipsam, rem quidem. Quam
+              facere eveniet excepturi quaerat vero.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
+              praesentium aliquam dolore temporibus vel distinctio libero eius
+              alias numquam corporis? Lorem ipsum dolor sit amet consectetur
+              adipisicin
+            </p>
+          </div>
+        </div>
+        <div class="about-us-image-content">
+          <div class="about-us-first-image">
+            <img src="/images/pizza1" class="pizza-about" alt="" />
+          </div>
+          <div class="about-us-second-image">
+            <img src="/images/pizza2" class="pizza-about" alt="" />
+            <button class="gallery-btn">
+              Galeria <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Menu -->
+    <div class="gradient-menu">
+      <div class="menu" id="menu">
+        <div class="main-menu-box">
+
+          <h2>Menu</h2>
+
+          <ul class="main-menu-list">
+            <li class="li-menu" data-name="pizza-vege">Pizza vege</li>
+            <li class="li-menu" data-name="pizza-szynka">Pizza z szynką</li>
+            <li class="li-menu" data-name="pizza-salami">Pizza z salami</li>
+            <li class="li-menu" data-name="pizza-nduja">Pizza z 'nduja </li>
+            <li class="li-menu" data-name="pizza-kurczak">Pizza z kurczakiem</li>
+            <li class="li-menu" data-name="pizza-tunczyk">Pizza z tuńczykiem</li>
+            <li class="li-menu" data-name="calzone">Calzone</li>
+          </ul>
+
+          <ul class="pizza-list-box">
+
+          
+           
+   
+
+          </ul>
+        </div>
+
+
+              
+
+
+      
+           
+<!-- 
+          <li class="li-menu">Dodatki</li>
+          <ul>
+            <li>szpinak, rukola, świeża bazylia</li>
+            <li>mozzarella, gorgonzola, mascarpone, parmezan</li>
+            <li>szynka parmeńska, 'nduja, tuńczyk</li>
+            <li>szynka, salami napoli, salami picante, kurczak</li>
+            <li>
+              kukurydza, pieczarki, czerwona cebula, pomidorki koktajlowe,
+              pieczona papryka, oliwki, cukinia, karczochy, papryczka
+              peperoncini, papryczki jalapeno, suszone pomidory, majonez
+            </li>
+            <li>zmiana sosu pomidorowego na biały sos</li>
+          </ul>
+
+          <li class="li-menu">Napoje ciepłe</li>
+          <ul>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Herbata</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Czarna kawa
+            </li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Espresso
+            </li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Cappuccino
+            </li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Latte
+              macchiato</li>
+          </ul>
+
+          <li class="li-menu">Napoje zimne</li>
+          <ul>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Piwo lane
+              0,5l</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Birra
+              Moretti 0,3l</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Pepsi
+              0,2l(szkło)</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Pepsi
+              0,33l(puszka)</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Pepsi 0,5l
+            </li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Lipton 0,2l
+            </li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Tymbark
+              0,33l</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Soki owocowe
+              0,33l(szklanka)</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Dzbanek soku
+              1l</li>
+            <li><img src="/images/318465835_520087870173847_7725691041688302238_n.jpg" class="menu-image">Woda
+              gazowana/niegazowana</li>
+            <span>*informacja o cenach piw butelkowych przy barze</span>
+          </ul> -->
+
+
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gradient-gallery">
+      <div class="gallery">
+        <h2>Nasz Instagram</h2>
+        <i class="ti ti-arrow-badge-down"></i>
+        <div class="photos">
+          <a target="_blank" href="https://www.instagram.com/p/CcDTcnVDWRZ/?utm_source=ig_web_copy_link"><img src="/images/big-22.jpg"
+              alt=""><i class="ti ti-brand-instagram"></i></a>
+          <a target="_blank"href="https://www.instagram.com/p/CcDTcnVDWRZ/?utm_source=ig_web_copy_link"><img src="/images/big-22.jpg"
+              alt=""><i class="ti ti-brand-instagram"></i></a>
+          <a target="_blank" href="https://www.instagram.com/p/CcDTcnVDWRZ/?utm_source=ig_web_copy_link"><img src="/images/big-22.jpg"
+              alt=""><i class="ti ti-brand-instagram"></i></a>
+          <a target="_blank" href="https://www.instagram.com/p/CcDTcnVDWRZ/?utm_source=ig_web_copy_link"><img src="/images/big-22.jpg"
+              alt=""><i class="ti ti-brand-instagram"></i></a>
+        </div>
+      </div>
+      
+        <!-- Contact -->
+        <div class="gradient-contact">
+          <div class="contact">
+            <div class="open-hours">
+              
+            </div>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10246.479238719221!2d21.612444!3d50.055953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90f6e8d9f3e726b6!2s%22Piccolo%22%20Pizzeria%20w%20Ropczycach!5e0!3m2!1spl!2spl!4v1673468755552!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
+
+
+css 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-size: 10px;
+  /* overflow: hidden; */
+}
+
+.layout {
+	display: grid;
+	grid-template-columns: 10% 1fr;
+	grid-template-rows: 100vh 100vh 1fr 1fr 1fr;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.background-first-section-image {
+  background-image: url(./images/piccolo.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.main-background {
+  height: 100vh;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  grid-column: 2/3;
+}
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(162, 162, 162, 1) 0%,
+    rgba(142, 142, 142, 0.20632002801120453) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  height: 100vh;
+}
+
+/* NAVIGATION */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  height: 90px;
+  z-index: 1;
+}
+
+nav.show,
+.main-aside.show {
+  animation: 0.5s show both ease-out;
+}
+
+@keyframes show {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgba(141, 139, 139, 0.7);
+  }
+}
+
+.main-nav {
+  display: flex;
+}
+
+li.menu-item {
+  list-style: none;
+  margin: 10px 20px;
+}
+
+a.menu-item-link {
+  color: white;
+  font-size: 1.7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+a.active,
+li.active {
+  color: #f2c81e;
+  border-bottom: 2px solid #f2c81e;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-template-rows: 1fr 350px;
+}
+
+#main-header h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.short-about {
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Aside fixed po lewej */
+
+.main-aside {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  grid-column: 1/2;
+  z-index: 101;
+}
+
+.logo {
+  position: relative;
+  padding: 1rem;
+  z-index: 102;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #f2c81e;
+}
+.icon-tabler {
+  margin-bottom: 1rem;
+}
+
+a.socials-link:visited,
+a.socials-link:link,
+a.socials-link:hover,
+a.socials-link:active {
+  color: #f2c81e;
+}
+
+/* Pierwsza sekcja */
+.welcome-content {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  color: white;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+
+.h2 {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.opinions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 2/3;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px 60px;
+  backdrop-filter: blur(5px);
+}
+
+.opinions-list {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.opinion-card {
+  border: 1px solid white;
+  padding: 40px;
+}
+
+.card-head {
+  color: white;
+  padding: 10px;
+}
+
+.opinions h2 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.opinions-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.opinion-card {
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Karta opinii */
+.card-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-head img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.card-head h3 {
+  margin-left: 10px;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.card-body {
+  font-size: 1rem;
+  color: white;
+  line-height: 1;
+}
+
+/* Sekcja o nas */
+.gradient-about-us {
+  background: rgb(162, 162, 162);
+  background: linear-gradient(
+    125deg,
+    rgba(162, 162, 162, 1) 0%,
+    rgba(70, 70, 70, 0.7917542016806722) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-row: 2/3;
+  grid-column: 1/3;
+  height: 100vh;
+}
+.about-us {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-text-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  flex-basis: 50%;
+}
+
+.about-us-heading {
+  margin-top: 10rem;
+  color: #f2c81e;
+  font-size: 1.6rem;
+  text-align: left;
+  flex-basis: 50%;
+  padding: 4rem;
+}
+
+.about-us-heading h2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 10rem;
+}
+
+.about-us-paragraphs {
+  margin-top: 10rem;
+  padding: 4rem;
+  color: white;
+  flex-basis: 50%;
+}
+
+.about-us-paragraphs p:first-child {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.about-us-paragraphs p:last-child {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.about-us-image-content {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+
+.pizza-about {
+  width: 100%;
+  height: 350px;
+}
+
+.about-us-first-image {
+  width: 60%;
+}
+.about-us-second-image {
+  width: 20%;
+  position: relative;
+}
+
+.gallery-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: transparent;
+  color: #f2c81e;
+  font-weight: bold;
+  border: none;
+  font-size: 1.3rem;
+}
+
+/* Menu */
+
+.gradient-menu {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  background: rgb(162, 162, 162);
+  background: linear-gradient(
+    125deg,
+    rgba(162, 162, 162, 1) 0%,
+    rgba(70, 70, 70, 0.7917542016806722) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.menu {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.main-menu-box h2 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-bottom: 0.1rem solid white;
+  /* grafik border ^ */
+}
+
+.main-menu-list {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin: 3rem 0;
+}
+.pizza-list-box {
+  margin-top: 4rem;
+}
+
+.pizza-list-box h3 {
+  font-size: 3.5rem;
+}
+
+.li-pizza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.headings-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 11rem;
+}
+
+.add-to-cart-buttons button {
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  color: #f2c81e;
+  background-color: transparent;
+  transition: 0.3s;
+  margin: 0 0.3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.li-menu {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+.menu-image {
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+}
+
+/* galeria */
+.gradient-gallery {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background: rgb(162, 162, 162);
+  background: linear-gradient(
+    125deg,
+    rgba(162, 162, 162, 1) 0%,
+    rgba(70, 70, 70, 0.7917542016806722) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.gallery {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.gallery h2 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+}
+
+.gallery i {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.photos a {
+  position: relative;
+}
+
+.photos i {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.photos {
+  text-align: center;
+  margin: 3rem 15rem;
+  display: flex;
+  justify-content: space-around;
+  opacity: 1;
+  transition: 0.5 ease;
+  backface-visibility: hidden;
+}
+
+.photos img:hover {
+  opacity: 0.3;
+}
+
+.photos img{
+	width: 200px;
+	height: 200px;
+}
+
+.gradient-contact {
+	display: grid;
+	grid-template-columns: 10% 1fr;
+	grid-column: 1/3;
+	grid-row: 5/6;
+	background: rgb(162, 162, 162);
+	background: linear-gradient(
+		125deg,
+		rgba(162, 162, 162, 1) 0%,
+		rgba(70, 70, 70, 0.7917542016806722) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+
+.contact {
+	grid-column: 2/3;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+}
+
+
+js 
+
+
+const dishUlContainer = document.querySelector('.pizza-list-box');
+
+// Klasa do stworzenia pizzy
+class MenuCreator {
+	constructor(mainImg, dishHeading, ingredients, smallPizzaPrice, bigPizzaPrice, dishType, calzonePrice) {
+			this.mainImg = mainImg,
+			this.dishHeading = dishHeading,
+			this.ingredients = ingredients,
+			this.smallPizzaPrice = smallPizzaPrice,
+			this.bigPizzaPrice = bigPizzaPrice,
+			this.dishType = dishType,
+			this.calzonePrice = calzonePrice
+		}
+};
+
+// Funkcja powyzszej klasy tworzaca li na stronie z stworzona pizza
+MenuCreator.prototype.addPizzaToUl = function (dishType) {
+	// Pobieranie elementow z HTML
+	
+
+	// Tworzenie elementow HTML
+	const li = document.createElement('li');
+	const btnSmallPizza = document.createElement('button');
+	const btnBigPizza = document.createElement('button');
+	const calzonePizza = document.createElement('button');
+	const buttonsDiv = document.createElement('div');
+	const headingsDiv = document.createElement('div');
+	const img = document.createElement('img');
+	const paragraph = document.createElement('p')
+	const heading = document.createElement('h3');
+	
+	// Set up elementow dodawanych do strony
+	img.setAttribute('src', this.mainImg);
+	img.setAttribute('alt', '');
+	img.classList.add('menu-image');
+
+	heading.textContent = this.dishHeading
+	paragraph.textContent = this.ingredients;
+	btnSmallPizza.textContent = this.smallPizzaPrice;
+	btnBigPizza.textContent = this.bigPizzaPrice;
+	calzonePizza.textContent = this.calzonePrice;
+
+	// Set up klas elementow dodawanych do strony
+	li.classList.add('li-pizza');
+
+	headingsDiv.classList.add('headings-div');
+	buttonsDiv.classList.add('add-to-cart-buttons');
+
+	// Przypisanie elementow do odpowiednich struktur
+	dishUlContainer.append(li);
+	li.append(headingsDiv);
+	headingsDiv.append(heading);
+	headingsDiv.append(img);
+
+	li.append(paragraph);
+
+	li.append(buttonsDiv);
+
+	if(dishType === 'calzone'){
+		buttonsDiv.append(calzonePizza);
+	}	
+	else {
+		buttonsDiv.append(btnSmallPizza);
+		buttonsDiv.append(btnBigPizza);
+	}
+}
+
+// Tablica zawierajaca wszystkie pizze
+const arrayContainingDishes = [
+	// Pizza pizza-vege
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 1,
+		ingredients: 'Sos pomidorowy, mozzarella',
+		smallPizzaPrice: 24,
+		bigPizzaPrice: 33,
+		dishType: 'pizza-vege',
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 2,
+		ingredients: 'Sos pomidorowy, mozzarella, pomidorki koktajlowe, oliwki, świeża bazylia ',
+		smallPizzaPrice: 29,
+		bigPizzaPrice: 42,
+		dishType: 'pizza-vege',
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 3,
+		ingredients: 'Sos pomidorowy, mozzarella, gorgonzola, mascarpone, parmezan',
+		smallPizzaPrice: 33,
+		bigPizzaPrice: 44,
+		dishType: 'pizza-vege',
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 4,
+		ingredients: 'Biały sos, mozzarella, cukinia, pieczona papryka',
+		smallPizzaPrice: 30,
+		bigPizzaPrice: 41,
+		dishType: 'pizza-vege',
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 5,
+		ingredients: 'Biały sos, mozzarella, jalapeno, czerwona cebula, oliwki',
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 43,
+		dishType: 'pizza-vege',
+	},
+	// Pizza z pizza-szynka/pizza-szynka parmenska
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 6,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka parmeńska, parmezan, pomidorki koktajlowe, rukola",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 48,
+		dishType: "pizza-szynka",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 7,
+		ingredients:
+		  "Biały sos, mozzarella, oliwki, szynka parmeńska, rukola, parmezan",
+		smallPizzaPrice: 37,
+		bigPizzaPrice: 49,
+		dishType: "pizza-szynka",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 8,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, pieczarki, pieczona papryka, pomidorki koktajlowe",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 47,
+		dishType: "pizza-szynka",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 9,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, oliwki, karczochy, rukola",
+		smallPizzaPrice: 34,
+		bigPizzaPrice: 45,
+		dishType: "pizza-szynka",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 10,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, szpinak, pomidorki koktajlowe, krem serowy",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 46,
+		dishType: "pizza-szynka",
+	 },
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 11,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, czerwona cebula, oliwki, jalapeno, papryczki peperoncici, ostry sos",
+		smallPizzaPrice: 39,
+		bigPizzaPrice: 50,
+		dishType: "pizza-szynka",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 12,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, szynka, pieczarki, szynka, pieczarki, kukurydza",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		dishType: "pizza-szynka",
+	},
+	// Pizza z pizza-salami
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 13,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli, suszone pomidory, cebula, świeża bazylia",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 48,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 14,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli, szynka, pieczarki, oliwa czosnkowa ",
+		smallPizzaPrice: 34,
+		bigPizzaPrice: 45,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 15,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli / salami picante",
+		smallPizzaPrice: 27,
+		bigPizzaPrice: 36,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 16,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli / salami picante, pieczarki",
+		smallPizzaPrice: 29,
+		bigPizzaPrice: 40,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 17,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami napoli, karczochy, oliwki",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 18,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami picante, oliwki, suszone pomidory, rukola ",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 45,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 19,
+		ingredients:
+		  "Biały sos, mozzarella, salami picante, papryczka peperoncini, cebula czerwona",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 45,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 20,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami picante, cukinia, pieczona papryka, czerwona cebula",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 45,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 21,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, salami picante, mascarpone, gorgonzola, oliwki",
+		smallPizzaPrice: 37,
+		bigPizzaPrice: 48,
+		dishType: "pizza-salami",
+	},
+	{
+		mainImg: '/images/318465835_520087870173847_7725691041688302238_n.jpg',
+		dishHeading: 22,
+		ingredients:
+		  "Sos  pomidorowy, mozzarella, salami picante, mascarpone, jalapeno",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		dishType: "pizza-salami",
+	},
+	// Pizza z kielbasa wloska pizza-nduja
+	{
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 23,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, 'nduja, mascarpone, suszone pomidory, szpinak",
+		smallPizzaPrice: 37,
+		bigPizzaPrice: 48,
+		dishType: "pizza-nduja",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 24,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, 'nduja, pieczona papryka, oliwki, rukola",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 47,
+		dishType: "pizza-nduja",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 25,
+		ingredients:
+		  "Biały sos, mozzarella, 'nduja, czerwona cebula, suszone pomidory, świeża bazylia",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 47,
+		dishType: "pizza-nduja",
+	  },
+	  //Pizza z pizza-kurczakiem
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 26,
+		ingredients: "Sos pomidorowy, mozzarella, kurczak, mascarpone, szpinak",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		dishType: "pizza-kurczak",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 27,
+		ingredients:
+		  "Sos pomidorowy, mozzarella, kurczak, czerwona cebula, kukurydza, zapiekany majonez",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 47,
+		dishType: "pizza-kurczak",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 28,
+		ingredients: "Sos pomidorowy, mozzarella, kurczak, kukurydza, papryka",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 43,
+		dishType: "pizza-kurczak",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 29,
+		ingredients: "Biały sos, mozzarella, kurczak, jalapeno, czerwona cebula",
+		smallPizzaPrice: 31,
+		bigPizzaPrice: 44,
+		dishType: "pizza-kurczak",
+	  },
+	  //Pizza z pizza-tunczykiem
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 30,
+		ingredients: "Sos pomidorowy, mozzarella, tuńczyk, oliwki",
+		smallPizzaPrice: 29,
+		bigPizzaPrice: 42,
+		dishType: "pizza-tunczyk",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 31,
+		ingredients: "Biały sos, mozzarella, tuńczyk, cebula, kukurydza, szpinak",
+		smallPizzaPrice: 36,
+		bigPizzaPrice: 47,
+		dishType: "pizza-tunczyk",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 32,
+		ingredients: "Sos pomidorowy, mozzarella, tuńczyk, cebula, zapiekany majonez",
+		smallPizzaPrice: 35,
+		bigPizzaPrice: 44,
+		dishType: "pizza-tunczyk",
+	  },
+	  // Calzone
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 1,
+		ingredients: "Sos pomidorowy, mozzarella, salami napoli, jalapeno, pieczona papryka, rukola",
+		calzonePrice: 29,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 2,
+		ingredients: "Sos pomidorowy, mozzarella, salami napoli, szynka, cebula, pieczarki",
+		calzonePrice: 31,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 3,
+		ingredients: "Biały sos, mozzarella, szynka, pomidorki koktajlowe, rukola, parmezan",
+		calzonePrice: 30,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 4,
+		ingredients: "Sos pomidorowy, mozzarella, salami picante, oliwki, gorgonzola",
+		calzonePrice: 33,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 5,
+		ingredients: "Sos pomidorowy, mozzarella, szynka parmeńska, szpinak, suszone pomidory, krem serowy(tylko w formie tradycyjnej)",
+		calzonePrice: 32,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 6,
+		ingredients: "Sos pomidorowy, mozzarella, szynka, pomidorki koktajlowe, krem serowy, kukurydza",
+		calzonePrice: 30,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 7,
+		ingredients: "Sos pomidorowy, mozzarella, kurczak, pieczona papryka, kukurydza, pieczarki",
+		calzonePrice: 30,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 8,
+		ingredients: "Sos pomidorowy, mozzarella, kurczak, cebula, kukurydza, zapiekany majonez",
+		calzonePrice: 32,
+		dishType: "calzone",
+	  },
+	  {
+		mainImg: "/images/318465835_520087870173847_7725691041688302238_n.jpg",
+		dishHeading: 9,
+		ingredients: "Sos pomidorowy, mozzarella, + max. 4 dodatki",
+		calzonePrice: 24,
+		dishType: "calzone",
+	  },
+	  
+
+]
+
+// Pobor wszystkich elementow z typami pizzy
+const liMenu = document.querySelectorAll('.li-menu');
+
+
+// Funkcja tworzaca pizze na podstawie jej typu z uzyciem klasy
+const getDish = e => {
+	removeDishes();
+
+	let dishType = e.target.dataset.name;
+
+	arrayContainingDishes.forEach(pizza => {
+		
+		for (const key in pizza) {
+			if (pizza[key] === dishType) {
+
+				const chosenPizza = new MenuCreator(pizza.mainImg, pizza.dishHeading, pizza.ingredients, pizza.smallPizzaPrice + 'zł', pizza.bigPizzaPrice + 'zł', pizza.dishType, pizza.calzonePrice + 'zł');
+	
+				chosenPizza.addPizzaToUl(dishType);
+			}
+		}
+	})
+}
+
+// Funkcja usuwajaca poprzedni obiekt pizzy
+const removeDishes = () => {
+	const lisToRemove = document.getElementsByClassName('li-pizza');
+
+		[...lisToRemove].forEach(item => {
+			item.remove();
+		})
+		
+	
+}
+
+
+// Funkcja dodajaca menu przy zaladowaniu strony
+const showMenu = () => {
+	arrayContainingDishes.forEach(dish => {
+		
+		for (const key in dish) {
+			const key2 = dish[key];
+
+			if (dish[key] === 'pizza-vege') {
+
+				const chosenDish = new MenuCreator(dish.mainImg, dish.dishHeading, dish.ingredients, dish.smallPizzaPrice + 'zł', dish.bigPizzaPrice + 'zł', dish.dishType, dish.calzonePrice);
+	
+				chosenDish.addPizzaToUl();
+			}
+		}
+	})
+}
+
+const navigation = document.querySelector(".navigation");
+const asideImg = document.querySelector(".main-aside img");
+const aside = document.querySelector(".main-aside ");
+
+window.addEventListener("scroll", () => {
+  let sizeOnTop = window.scrollY;
+  if (sizeOnTop > 100) {
+    navigation.classList.add("show");
+    asideImg.src = "./logo/piccolo_zote.png";
+    aside.classList.add("show");
+  } else if (sizeOnTop < 100) {
+    navigation.classList.remove("show");
+    asideImg.src = "./logo/piccolo_biale.png";
+    aside.classList.remove("show");
+  }
+});
+
+
+window.addEventListener('DOMContentLoaded', showMenu)
+
+liMenu.forEach(el => el.addEventListener('click', getDish));
